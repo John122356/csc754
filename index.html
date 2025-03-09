@@ -103,6 +103,16 @@
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1904.12066" target="_blank">ABIDES: Towards High-Fidelity Market Simulation for AI Research</a></h3>
+										<p>This paper created an agent-based discrete event simulation environment that simulates financial markets for the purpose of ai research.
+											This simulation environment can be used to study market phenomena and also the strategies of complex learning agents.
+											Although the stated purpose of this simulation is to provide a platform for ai research, different ai agents are not tested in this paper.</p>
+									</li>
+
+									<li style="width:100%; margin-top:10px;">
+										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2110.14771" target="_blank">ABIDES-Gym: Gym Environments for Multi-Agent Discrete Event Simulation and Application to Financial Markets</a></h3>
+										<p>This paper uses the OpenAI Gym framework on top of the ABIDES financial market simulator to train and test reinforcement learning agents.
+											Their framework is more general than only using the ABIDES simulator and can be used with any discrete event multi-agent simulator.
+											They also introduce two financial market simulation environments to be used at reinforcement learning benchmarks.</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
@@ -111,35 +121,63 @@
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2308.04026" target="_blank">AgentSims: An Open-Source Sandbox for Large Language Model Evaluation</a></h3>
+										<p>This paper advocates for using task as opposed to question and answering to evaluate LLM agents.
+											This is to avoid common pitfalls of other LLM benchmarks such as data contamination and benchmark hacking.
+											It provides an infrastructure for creating tasks for an LLM agent to perform in a simulated town.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1711.09883" target="_blank">AI Safety Gridworlds</a></h3>
+										<p>This paper presents a suite of environments for testing the safety of reinforcement learning agents.
+											These are cellular environments where the agent can interact with objects in the same cell or move to an adjacent cell.
+											Each environment has a hidden safety function that scores the agent's performance on a different safety issue, such as if the agent learns to cheat for a reward.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1712.05474" target="_blank">AI2-THOR: An Interactive 3D Environment for Visual AI</a></h3>
+										<p>AI2-THOR is a simulated environment that that offers a richer visual enviroment for learning agents than that of pictures and videos.
+											It produces near photo realistic scenes through procedural generation with objects that can be interacted with.
+											The Unity game engine provides a background that can return events based on the agent's actions.
+											AI2-THOR seems to be a very popular framework for training and evaluating agent based AI.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1705.05065" target="_blank">AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles</a></h3>
+										<p>AirSim is a simulator for autonomous vehicles that has realistic visuals and physics, since real world data for autonomous vehicles is expensive and difficult to gather.</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2407.06886" target="_blank">Aligning Cyber Space with Physical World: A Comprehensive Survey on Embodied AI</a></h3>
+										<p>This is a survey paper about embodied AI, where an AI agent can interact with and learn from the physical world.
+											Emobodied AI agents are often trained in a simulator before being brought into the real world, and this paper mentions many simulators. Some of which I have added to this list of papers.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2305.14387" target="_blank">AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback</a></h3>
+										<p>AlpacaFarm simulates human feedback to help train and evaluate LLM's abilities to follow instructions.
+											This is to help developers experiment with different methods before investing in real human feedback.
+											Since the simulations are replicable, different learning algorithms can be compared and several are tested in this paper.
+											Its correctness is also validated by comparing it with real human feedback.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2412.04604" target="_blank">ARC Prize 2024: Technical Report</a></h3>
-										<p>This paper is not about simulation and modeling, but is about a recent Kaggle competition using the ARC-AGI benchmark. This benchmark was created to test general intelligence by asking the system to solve novel tasks. Although it may not be appropriate for this survey paper, I think the ARC-AGI benchmark outlines why it's important to have more dynamical benchmarks for artificial intelligence.</p>
+										<p>This paper is not about simulation and modeling, but is about a recent Kaggle competition using the ARC-AGI benchmark.
+											This benchmark was created to test general intelligence by asking the system to solve novel tasks.
+											Although it may not be appropriate for this survey paper, I think the ARC-AGI benchmark outlines why it's important to have more dynamical benchmarks for artificial intelligence.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://ieeexplore.ieee.org/document/9605690" target="_blank">Autonomous Vehicle Evaluation: A Comprehensive Survey on Modeling and Simulation Approaches</a></h3>
+										<p>As the title suggests this paper covers many ways to simulate autonomous vehicles.
+											On first glance I think the most interesting are the monte carlo simulations, because just about all of the other papers I have found are agent based simulations.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
@@ -216,6 +254,10 @@
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
+										<h3 style="margin-bottom:0px;"><a href="https://ieeexplore.ieee.org/document/6386109" target="_blank">MuJoCo: A physics engine for model-based control</a></h3>
+									</li>
+
+									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://hrilab.tufts.edu/publications/goeletal21ala/" target="_blank">NovelGridworlds: A Benchmark Environment for Detecting and Adapting to Novelties in Open Worlds</a></h3>
 									</li>
 
@@ -276,6 +318,7 @@
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1207.4708" target="_blank">The Arcade Learning Environment: An Evaluation Platform for General Agents</a></h3>
+										<p>This is an influential paper that created a common interface to Atari games for reinforcement learning.</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
