@@ -182,43 +182,68 @@
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1810.08272" target="_blank">BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning</a></h3>
+										<p>This is a grid-based environment where the AI agent must follow natural language instruction to complete a task such as “put the red ball next to the box on your left”.
+											It uses a simulated teacher to give instruction and demonstrations which could potentially be replaced by a human to train the agent.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2403.09227" target="_blank">BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation</a></h3>
+										<p>This benchmark simulates the activities that people would most like robots to be able to perform according to a survey conducted by the authors.
+											It includes interactable objects with semantic annotation, realistic visuals, and physics, so a robot's performance in the simulation is more likely to translate to real life.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2501.16590" target="_blank">Benchmarking Model Predictive Control and Reinforcement Learning Based Control for Legged Robot Locomotion in MuJoCo Simulation</a></h3>
+										<p>This paper uses the MuJoCo simulator to compare reinforcement learning with model predictive control algorithms for robot movement.
+											MuJoCo is a physics simulator that seems to be popular. 
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2411.12990" target="_blank">BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices</a></h3>
-										<p>This paper is not about modeling and simulation, but provides a framework for evaluating benchmarks.</p>
+										<p>This paper is not about modeling and simulation, but provides a framework for evaluating benchmarks.
+											Two issues it mentions that I think simulation based benchmarks can address are benchmark saturation and data contamination.
+											Benchmark saturation is when the an AI model can perform nearly as well as is possible, and data contamination is when the data a model is trained on makes it into the test data.
+											Complicated tasks in simulations that require planning and logic as well dynamically created environments can help address these issues.  
+										</p>
 									</li>
 									
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2308.05960" target="_blank">BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents</a></h3>
+										<p>This paper aims to evaluate LLM agents both in terms of their agent architecture and their LLM backbones.
+											These are experimented on in WebShop, a simulated website store, and HotpotQA, a question answering dataset.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/1711.03938" target="_blank">CARLA: An Open Urban Driving Simulator</a></h3>
+										<p>CARLA is an autonomous vehicle simulator. Simulations include static objects like roads, buildings, and plants and dynamic objects like cars and pedestrians as well as different weather and time of day conditions.
+											Several different learning architectures are tested in this paper.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2502.12532" target="_blank">CityEQA: A Hierarchical LLM Agent on Embodied Question Answering Benchmark in City Space</a></h3>
+										<p>CityEQA is a simulator for embodied agents to answer questions by exploring and interacting with the environment.
+											This is a city environment as opposed to other simulators that generate indoor spaces.
+											The scale of this bigger environment challenges the agent to explore lager areas while still considering the small scale for interactions.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2006.12983" target="_blank">dm_control: Software and Tasks for Continuous Control</a></h3>
+										<p>Dm_control is a software suite for creating simulations that task an AI agent with controlling or manipulating objects.
+											It uses the MuJoCo physics simulator.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
 										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2006.08732" target="_blank">Evaluating Conversational Recommender Systems via User Simulation</a></h3>
-									</li>
-
-									<li style="width:100%; margin-top:10px;">
-										<h3 style="margin-bottom:0px;"><a href="https://arxiv.org/abs/2406.14884" target="_blank">FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents</a></h3>
+										<p>This paper is more detailed in its description of the modeling process than most of the other papers I have found.
+											Most of the papers I have found just drop an agent into a simulated evironment to see what it can do.
+										</p>
 									</li>
 
 									<li style="width:100%; margin-top:10px;">
